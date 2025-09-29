@@ -110,7 +110,7 @@ The website is structured around three levels of features to guide development a
 <details>
   <summary><strong>Booking Form</strong></summary>
 
-![Placeholder for Booking Form](assets\readme-images\booking-laptop.png)
+![Placeholder for Booking Form](assets/readme-images/booking-laptop.png)
 
 - Form fields: Name, Email, Date/Time, Group size
 - Small section dedicated for lottie animation
@@ -123,7 +123,7 @@ The website is structured around three levels of features to guide development a
 <details>
   <summary><strong>Fate Sealed Page</strong></summary>
 
-![Placeholder for Success Page](assets\readme-images\success-laptop.png)
+![Placeholder for Success Page](assets/readme-images/success-laptop.png)
 
 - Large flickering headline: "Your Fate Is Sealed"
 - CSS animations (floating bats, ghosts, lightning)
@@ -136,7 +136,7 @@ The website is structured around three levels of features to guide development a
 <details>
   <summary><strong>Footer (with map)</strong></summary>
 
-![Placeholder for Footer with Map](assets\readme-images\footer.png)
+![Placeholder for Footer with Map](assets/readme-images/footer.png)
 
 - Embedded map showing haunted house location
 - Navbar/footer links
@@ -176,9 +176,9 @@ Secondary Font: 'Open Sans', sans-serif — for body text and readability
 
 
 ### Color Palette
-![Placeholder for Color Palette](assets\readme-images\color-palette.png)
+![Placeholder for Color Palette](assets/readme-images/color-palette.png)
 ### Visual Representation
-![Placeholder for Color Visual Representation](assets\readme-images\color-palette-Visualization.png)
+![Placeholder for Color Visual Representation](assets/readme-images/color-palette-Visualization.png)
 </details>
 
 ---
