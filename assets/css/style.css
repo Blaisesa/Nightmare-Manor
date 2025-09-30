@@ -50,10 +50,19 @@
 #main-nav .main-button:hover {
     background-color: var(--accent-color-secondary);
 }
+
 /* Global styles */
 h1, h2, h3 {
     font-family: var(--primary-font-family);
     color: var(--accent-color-primary);
+}
+
+body {
+    font-family: var(--secondary-font-family);
+    background-color: var(--background-secondary-color);
+    color: var(--text-primary-color);
+    margin: 0;
+    padding: 0;
 }
 
 /* Hero section */
@@ -62,7 +71,14 @@ h1, h2, h3 {
     background-size: cover;
     padding: 2rem;
     height: 75vh;
-    font-size: 1.5rem;
+}
+
+#hero h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5rem;
+    color: var(--accent-color-primary);
+    font-size: 3rem;
 }
 
 #hero p {
@@ -78,13 +94,55 @@ h1, h2, h3 {
     margin-left: .5rem;
     font-family: var(--primary-font-family);
     margin-top: 30px;
+    padding: .75rem 2rem;
 }
 
 #hero .main-button:hover {
     background-color: var(--accent-color-secondary);
 }
 
+/* Rooms section */
+#rooms h1{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
 
+#rooms .room {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+}
+
+#rooms .room:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(112, 10, 10, 0.2);
+}
+#rooms .room h2 {
+    margin-top: 0;
+    color: var(--accent-color-primary);
+    transition: text-shadow 0.3s;
+}
+
+#rooms .room:hover h2 {
+    animation: flicker 2s infinite;
+    text-shadow: 0 0 5px gray, 0 0 20px rgba(112, 10, 10, 0.2);
+}
+
+/* Cast section */
+#cast {
+    padding: 2rem 0;
+}
+
+#cast h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    color: var(--accent-color-primary);
+    font-size: 3rem;
+}
 
 /* Text Flicker Animation */
 @keyframes flicker {
