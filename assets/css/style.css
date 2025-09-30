@@ -172,9 +172,31 @@ body {
     color: var(--accent-color-primary);
 }
 
-#events table{
+#events table {
     border: 1px solid var(--border-color);
     padding: 10px;
+}
+
+/* Footer section */
+footer {
+    background-color: var(--background-primary-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h3 {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 25px;
+}
+
+.social-links i {
+    font-size: 1.75rem;
+    color: var(--accent-color-primary);
+    transition: transform 0.3s;
+}
+
+.social-links i:hover {
+    color: var(--accent-color-secondary);
 }
 /* Text Flicker Animation */
 @keyframes flicker {
