@@ -24,3 +24,74 @@
     --info-link-color: #232E21;
     --info-link-hover-color: #32533D;
 }
+
+/* Navbar */
+#logo img {
+    width: 50px;
+    height: 50px;
+}
+
+#main-nav a{
+    color: var(--text-primary-color);
+}
+
+#main-nav a:hover{
+    color: var(--accent-color-secondary);
+    text-decoration: underline;
+}
+
+#main-nav .main-button{
+    background-color: var(--accent-color-primary);
+    color: var(--background-primary-color);
+    margin-left: .5rem;
+    font-family: var(--primary-font-family);
+}
+
+#main-nav .main-button:hover {
+    background-color: var(--accent-color-secondary);
+}
+/* Global styles */
+h1, h2, h3 {
+    font-family: var(--primary-font-family);
+    color: var(--accent-color-primary);
+}
+
+/* Hero section */
+#hero {
+    background: var(--background-primary-color) url(../images/home-hero.png) no-repeat center center;
+    background-size: cover;
+    padding: 2rem;
+    height: 75vh;
+    font-size: 1.5rem;
+}
+
+#hero p {
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#hero .main-button{
+    background-color: var(--accent-color-primary);
+    color: var(--background-primary-color);
+    margin-left: .5rem;
+    font-family: var(--primary-font-family);
+    margin-top: 30px;
+}
+
+#hero .main-button:hover {
+    background-color: var(--accent-color-secondary);
+}
+
+
+
+/* Text Flicker Animation */
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
+    20%, 24%, 55% { opacity: 0; }
+}
+.text-flicker {
+    animation: flicker 2s infinite;
+    text-shadow: 0 0 5px gray, 0 0 20px darkred;
+}
