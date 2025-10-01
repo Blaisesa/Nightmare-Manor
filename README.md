@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Project Board](#project-board)
+- [Tools / Technologies Used](#tools--technologies-used)
 - [Wireframes / Layout](#wireframes--layout)
 - [Color Palette & Typography](#color-palette--typography)
 - [Screenshots](#screenshots)
