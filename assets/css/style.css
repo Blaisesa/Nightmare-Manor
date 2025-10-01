@@ -359,48 +359,34 @@ main#success-page p {
 }
 /* Responsive Styles */
 
-/* Small Screens */
-@media (max-width: 576px) {
-    /* navbar list */
-    #main-nav .navbar-nav {
-        text-align: center;
-        gap: 10px;
-        font-weight: 600;
-    }
+/* Extra Large Screens */
+@media (max-width: 1200px) {
     /* Home Page */
-    #hero h1 {
-        font-size: 2.5rem;
-        padding-top: 3rem;
+    .card-body {
+        min-height: 221px;
     }
-    #hero p {
-        font-size: 1.2rem;
-        padding: 0 1rem;
-    }
-    #rooms h1 {
-        font-size: 2.5rem;
-    }
-    #rooms .room {
-        margin-bottom: 1.5rem;
-    }
-    #rooms .room h2 {
-        font-size: 2rem;
+}
+
+/* Large Screens */
+@media (max-width: 992px) {
+    /* Home Page */
+    .card-body {
+        min-height: 220px;
     }
     #cast h2 {
         font-size: 2.5rem;
         padding: 1rem 0 1rem 0;
     }
-    /* Booking Page */
-    /* Lottie box positioned top-right of the card */
+    #main-nav .navbar-nav {
+        text-align: center;
+        gap: 10px;
+        font-weight: 600;
+    }
     .lottie-wrapper {
         position: static;
-        top: 10px;
-        left: 50px;
         margin-top: -70px;
         margin-bottom: -130px;
-    }
-    #booking-card .main-button {
-        margin-bottom: 10px;
-        width: 100%;
+        margin-left: 50px;
     }
 }
 
@@ -440,7 +426,7 @@ main#success-page p {
         position: static;
         margin-top: -70px;
         margin-bottom: -130px;
-        margin-left: 60px;
+        margin-left: -20px;
     }
     #booking-card .main-button {
         margin-bottom: 10px;
@@ -448,32 +434,47 @@ main#success-page p {
     }
 }
 
-/* Large Screens */
-@media (max-width: 992px) {
+/* Small Screens */
+@media (max-width: 576px) {
+    /* navbar list */
+    #main-nav .navbar-nav {
+        text-align: center;
+        gap: 10px;
+        font-weight: 600;
+    }
     /* Home Page */
-    .card-body {
-        min-height: 220px;
+    #hero h1 {
+        font-size: 2.5rem;
+        padding-top: 3rem;
+    }
+    #hero p {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+    #rooms h1 {
+        font-size: 2.5rem;
+    }
+    #rooms .room {
+        margin-bottom: 1.5rem;
+    }
+    #rooms .room h2 {
+        font-size: 2rem;
     }
     #cast h2 {
         font-size: 2.5rem;
         padding: 1rem 0 1rem 0;
     }
+    /* Booking Page */
+    /* Lottie box positioned top-right of the card */
     .lottie-wrapper {
-    position: absolute;
-    top: 10px;
-    left: 173px;
-    z-index: 10;
-}
-}
-
-/* Extra Large Screens */
-@media (max-width: 1200px) {
-    /* Home Page */
-    .card-body {
-        min-height: 221px;
+        position: static;
+        top: 10px;
+        left: 50px;
+        margin-top: -40px;
+        margin-bottom: -130px;
     }
-}
-
-/* Extra Extra Large Screens */
-@media (max-width: 1400px) {
+    #booking-card .main-button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
 }
