@@ -53,6 +53,11 @@
     text-decoration: none;
 }
 
+#main-nav .navbar-nav {
+        gap: 10px;
+        font-weight: 600;
+    }
+
 /* Global styles */
 h1, h2, h3, h4 {
     font-family: var(--primary-font-family);
@@ -298,6 +303,7 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
         gap: 10px;
         font-weight: 600;
     }
+    /* Home Page */
     #hero h1 {
         font-size: 2.5rem;
         padding-top: 3rem;
@@ -306,17 +312,74 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
         font-size: 1.2rem;
         padding: 0 1rem;
     }
-
+    #rooms h1 {
+        font-size: 2.5rem;
+    }
+    #rooms .room {
+        margin-bottom: 1.5rem;
+    }
+    #rooms .room h2 {
+        font-size: 2rem;
+    }
+    #cast h2 {
+        font-size: 2.5rem;
+        padding: 1rem 0 1rem 0;
+    }
 }
 
 /* Medium Screens */
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    /* Home Page */
+    #main-nav .navbar-nav {
+        text-align: center;
+        gap: 10px;
+        font-weight: 600;
+    }
+    #hero h1 {
+        font-size: 2.5rem;
+        padding-top: 3rem;
+    }
+    #hero p {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+    #rooms h1 {
+        font-size: 2.5rem;
+    }
+    #rooms .room {
+        margin-bottom: 1.5rem;
+    }
+    #rooms .room h2 {
+        font-size: 2rem;
+    }
+    #cast h2 {
+        font-size: 2.5rem;
+        padding: 1rem 0 1rem 0;
+    }
+    .card-body {
+        min-height: 193px;
+    }
+}
 
 /* Large Screens */
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    /* Home Page */
+    .card-body {
+        min-height: 220px;
+    }
+    #cast h2 {
+        font-size: 2.5rem;
+        padding: 1rem 0 1rem 0;
+    }
+}
 
 /* Extra Large Screens */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    /* Home Page */
+    .card-body {
+        min-height: 221px;
+    }
+}
 
 /* Extra Extra Large Screens */
 @media (max-width: 1400px) {}
