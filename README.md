@@ -5,10 +5,8 @@
 - [Project Board](#project-board)
 - [Wireframes / Layout](#wireframes--layout)
 - [Color Palette & Typography](#color-palette--typography)
-- [Installation / Usage](#installation--usage)
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
-- [Credits](#credits)
 
 ---
 
