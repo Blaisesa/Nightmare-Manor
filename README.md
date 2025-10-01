@@ -86,7 +86,6 @@ The website is structured around three levels of features to guide development a
 | [Canva](https://www.canva.com/) & [Unsplash](https://unsplash.com/) | Creating and sourcing images |
 | [Gemini](https://gemini.google.com) | Image creation and logo design |
 | [Figma](https://www.figma.com/) | Wireframes and project visualization |
-| [freesound.org](https://freesound.org/) | Background sound and spooky effects |
 | [favicon](https://favicon.io/) | Creates custom favicons for browser tabs and shortcuts. |
 
 ---
@@ -183,21 +182,23 @@ Secondary Font: 'Open Sans', sans-serif — for body text and readability
 
 ---
 
-## Installation / Usage
-<!-- Instructions for cloning the repo, opening the project, and dependencies -->
-
----
-
 ## Screenshots
 <!-- Placeholder for images of the project -->
+Below is a preview of the Nightmare Manor.
+
+<div>
+
+| ![](assets/readme-images/hero-sc.png) | ![](assets/readme-images/rooms+cast-sc.png) | ![](assets/readme-images/events+footer-sc.png) |
+|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|
+| ![](assets/readme-images/booking-form-sc.png) | ![](assets/readme-images/success-sc.png) |
+
+</div>
 
 ---
 
 ## Future Enhancements
 <!-- Stretch goals, animations, additional features -->
-
+- **Dark Mode Toggle:** Implement a dark mode feature to allow users to switch between light and dark themes, enhancing immersion and accessibility.
+- **Background Music:** Add atmospheric background music and sound effects to reinforce the haunted house theme and improve user experience.
 ---
-
-## Credits
-<!-- Sources for images, icons, fonts, and any inspirations -->
 
