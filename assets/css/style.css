@@ -1,28 +1,28 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=UnifrakturCook:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=UnifrakturCook:wght@700&display=swap");
 
 /* CSS Variables */
 :root {
     /* Background Core Colors */
-    --background-primary-color: #DFE2E2;
-    --background-secondary-color: #FAFAFA;
-    --background-tertiary-color: #F3F4F6;
-    --border-color: #EDEAEA;
-    
+    --background-primary-color: #dfe2e2;
+    --background-secondary-color: #fafafa;
+    --background-tertiary-color: #f3f4f6;
+    --border-color: #edeaea;
+
     /* Text Core Colors */
     --text-primary-color: #141414;
-    --text-secondary-color: #6B7280;
-    
+    --text-secondary-color: #6b7280;
+
     /* Text Fonts */
-    --primary-font-family: 'UnifrakturCook', cursive;
-    --secondary-font-family: 'Open Sans', sans-serif;
+    --primary-font-family: "UnifrakturCook", cursive;
+    --secondary-font-family: "Open Sans", sans-serif;
 
     /* Accent Colors */
-    --accent-color-primary: #700A0A;
-    --accent-color-secondary: #32236C;
-    --info-link-color: #232E21;
-    --info-link-hover-color: #32533D;
+    --accent-color-primary: #700a0a;
+    --accent-color-secondary: #32236c;
+    --info-link-color: #232e21;
+    --info-link-hover-color: #32533d;
 }
 
 /* Navbar */
@@ -31,19 +31,19 @@
     height: 50px;
 }
 
-#main-nav a{
+#main-nav a {
     color: var(--text-primary-color);
 }
 
-#main-nav a:hover{
+#main-nav a:hover {
     color: var(--accent-color-secondary);
     text-decoration: underline;
 }
 
-#main-nav .main-button{
+#main-nav .main-button {
     background-color: var(--accent-color-primary);
     color: var(--background-primary-color);
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     font-family: var(--primary-font-family);
 }
 
@@ -54,12 +54,15 @@
 }
 
 #main-nav .navbar-nav {
-        gap: 10px;
-        font-weight: 600;
-    }
+    gap: 10px;
+    font-weight: 600;
+}
 
 /* Global styles */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: var(--primary-font-family);
     color: var(--accent-color-primary);
 }
@@ -74,7 +77,8 @@ body {
 
 /* Hero section */
 #hero {
-    background: var(--background-primary-color) url(../images/home-hero.png) no-repeat center center;
+    background: var(--background-primary-color) url(../images/home-hero.png)
+        no-repeat center center;
     background-size: cover;
     padding: 2rem;
     height: 75vh;
@@ -105,13 +109,13 @@ body {
     color: whitesmoke;
 }
 
-#hero .main-button{
+#hero .main-button {
     background-color: var(--accent-color-primary);
     color: var(--background-primary-color);
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     font-family: var(--primary-font-family);
     margin-top: 30px;
-    padding: .75rem 2rem;
+    padding: 0.75rem 2rem;
 }
 
 #hero .main-button:hover {
@@ -123,7 +127,7 @@ body {
     padding: 0;
 }
 
-#rooms h1{
+#rooms h1 {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -140,20 +144,21 @@ body {
 #rooms .room:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(112, 10, 10, 0.2);
-    }
+}
 
 #rooms .room:hover h2 {
     animation: flicker 2s infinite;
-    text-shadow: 0 0 5px var(--accent-color-primary), 0 0 20px rgba(112, 10, 10, 0.2);
+    text-shadow: 0 0 5px var(--accent-color-primary),
+        0 0 20px rgba(112, 10, 10, 0.2);
 }
 
-#cast .main-button{
+#cast .main-button {
     background-color: var(--accent-color-primary);
     color: var(--background-primary-color);
     margin-top: 20px;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     font-family: var(--primary-font-family);
-    padding: .75rem 2rem;
+    padding: 0.75rem 2rem;
 }
 
 #cast .main-button:hover {
@@ -245,11 +250,11 @@ footer h3 {
     background-image: url('data:image/svg+xml,%3Csvg width="12" height="24" viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
 }
 
-#booking-form .main-button{
+#booking-form .main-button {
     background-color: var(--accent-color-primary);
     color: var(--background-primary-color);
     font-family: var(--primary-font-family);
-    padding: .75rem 2rem;
+    padding: 0.75rem 2rem;
 }
 
 #booking-form .main-button:hover {
@@ -262,31 +267,47 @@ footer h3 {
     color: var(--accent-color-primary);
 }
 
-input.form-control, select.form-control, textarea.form-control {
-    border: 1px solid var(--border-color);
+input.form-control,
+select.form-control,
+textarea.form-control {
+    border: 3px solid var(--border-color);
     border-radius: 4px;
     padding: 10px;
     font-size: 1rem;
     transition: border-color 0.5s;
 }
 
-input.form-control:focus, select.form-control:focus, textarea.form-control:focus {
+input.form-control:focus,
+select.form-control:focus,
+textarea.form-control:focus {
     box-shadow: 0 0 5px rgba(112, 10, 10, 0.2);
     outline: none;
     border: 3px solid rgba(112, 10, 10, 0.2);
 }
 /* Lottie box positioned top-right of the card */
 .lottie-wrapper {
-  position: absolute;
-  top: 10px;
-  left: 250px;
-  z-index: 10;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    z-index: 10;
 }
 
 /* Text Flicker Animation */
 @keyframes flicker {
-    0%, 18%, 22%, 25%, 53%, 57%, 100% { opacity: 1; }
-    20%, 24%, 55% { opacity: 0; }
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        opacity: 1;
+    }
+    20%,
+    24%,
+    55% {
+        opacity: 0;
+    }
 }
 .text-flicker {
     animation: flicker 2s infinite;
@@ -325,6 +346,19 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
         font-size: 2.5rem;
         padding: 1rem 0 1rem 0;
     }
+    /* Booking Page */
+    /* Lottie box positioned top-right of the card */
+    .lottie-wrapper {
+        position: static;
+        top: 10px;
+        left: 50px;
+        margin-top: -70px;
+        margin-bottom: -130px;
+    }
+    #booking-card .main-button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
 }
 
 /* Medium Screens */
@@ -359,6 +393,16 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
     .card-body {
         min-height: 193px;
     }
+    .lottie-wrapper {
+        position: static;
+        margin-top: -70px;
+        margin-bottom: -130px;
+        margin-left: 60px;
+    }
+    #booking-card .main-button {
+        margin-bottom: 10px;
+        width: 100%;
+    }
 }
 
 /* Large Screens */
@@ -371,6 +415,12 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
         font-size: 2.5rem;
         padding: 1rem 0 1rem 0;
     }
+    .lottie-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 173px;
+    z-index: 10;
+}
 }
 
 /* Extra Large Screens */
@@ -382,4 +432,5 @@ input.form-control:focus, select.form-control:focus, textarea.form-control:focus
 }
 
 /* Extra Extra Large Screens */
-@media (max-width: 1400px) {}
+@media (max-width: 1400px) {
+}
