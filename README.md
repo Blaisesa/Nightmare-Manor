@@ -187,9 +187,9 @@ Below is a preview of the Nightmare Manor.
 
 <div>
 
-| ![](assets/readme-images/hero-sc.png) | ![](assets/readme-images/rooms+cast-sc.png) | ![](assets/readme-images/events+footer-sc.png) |
+| ![](assets/readme-images/hero-sc.png) Hero Section| ![](assets/readme-images/rooms+cast-sc.png) Rooms Showcase | ![](assets/readme-images/events+footer-sc.png) Footer Section |
 |:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|
-| ![](assets/readme-images/booking-form-sc.png) | ![](assets/readme-images/success-sc.png) |
+| ![](assets/readme-images/booking-form-sc.png) Booking Section | ![](assets/readme-images/success-sc.png) Success Page |
 
 </div>
 
