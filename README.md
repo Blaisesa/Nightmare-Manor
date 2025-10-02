@@ -8,6 +8,7 @@
 - [Color Palette & Typography](#color-palette--typography)
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
+- [Accessibility & Validation](#accessibility--validation)
 
 ---
 
@@ -200,4 +201,23 @@ Below is a preview of the Nightmare Manor.
 - **Dark Mode Toggle:** Implement a dark mode feature to allow users to switch between light and dark themes, enhancing immersion and accessibility.
 - **Background Music:** Add atmospheric background music and sound effects to reinforce the haunted house theme and improve user experience.
 ---
+
+## Accessibility & Validation
+
+To ensure Nightmare Manor is accessible and error-free, the following tools were used:
+
+- **HTML Validation:** [W3C Markup Validation Service](https://validator.w3.org/) was used to check for HTML errors and ensure semantic markup.
+- **CSS Validation:** [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to verify CSS syntax and compatibility.
+- **Performance & Accessibility:** [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) audits were run to assess performance, accessibility and best practices.
+
+<details>
+  <summary><strong>Validation Results</strong></summary>
+
+- **HTML:** No critical errors; minor warnings addressed for improved semantics.
+- **CSS:** Passed validation with no major issues.
+- **Lighthouse:** Scores above 90 for Performance, 100 for Accessibility and 100 for Best Practices on Desktop & above 70 on mobile for performance. 
+</details>
+
+| ![](assets\readme-images\lighthouse-desktop.png) | ![](assets\readme-images\lighthouse-mobile.png) | ![](assets\readme-images\html-check.png) | ![](assets\readme-images\css-check.png) |
+|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|
 
