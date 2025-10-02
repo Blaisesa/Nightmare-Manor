@@ -77,7 +77,7 @@ body {
 
 /* Hero section */
 #hero {
-    background: var(--background-primary-color) url(../images/home-hero.png)
+    background: var(--background-primary-color) url(../images/home-hero.webp)
         no-repeat center center;
     background-size: cover;
     padding: 2rem;
@@ -318,7 +318,7 @@ textarea.form-control:focus {
 main#success-page {
     padding: 5rem 1rem;
     min-height: 80vh;
-    background: url(../images/success-page-background.png) no-repeat center center;
+    background: url(../images/success-page-background.webp) no-repeat center center;
     background-size: cover;
 }
 .lottie-success{
