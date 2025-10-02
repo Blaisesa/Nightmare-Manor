@@ -358,6 +358,15 @@ main#success-page p {
     padding: 0.75rem 2rem;
 }
 /* Responsive Styles */
+/* Extra Extra Large Screens */
+@media (max-width: 1400px) {
+    .lottie-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    z-index: 10;
+}
+}
 
 /* Extra Large Screens */
 @media (max-width: 1200px) {
@@ -365,6 +374,12 @@ main#success-page p {
     .card-body {
         min-height: 221px;
     }
+    .lottie-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    z-index: 10;
+}
 }
 
 /* Large Screens */
