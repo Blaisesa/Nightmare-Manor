@@ -87,6 +87,13 @@ body {
     padding: 0;
 }
 
+.responsive-map {
+    width: 100%;
+    max-width: 100%; /* Good practice */
+    height: 350px;
+    border-radius: 8px;
+}
+
 /* Hero section */
 #hero {
     background: var(--background-primary-color) url(../images/home-hero.webp)
