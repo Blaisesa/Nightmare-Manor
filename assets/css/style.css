@@ -293,7 +293,7 @@ textarea.form-control:focus {
 .lottie-wrapper {
     position: absolute;
     top: 10px;
-    left: 250px;
+    left: 25%;
     z-index: 10;
 }
 
