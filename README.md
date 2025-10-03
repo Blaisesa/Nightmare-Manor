@@ -215,7 +215,7 @@ To ensure Nightmare Manor is accessible and error-free, the following tools were
 
 - **HTML:** No critical errors; minor warnings addressed for improved semantics.
 - **CSS:** Passed validation with no major issues.
-- **Lighthouse:** Scores above 90 for Performance, 100 for Accessibility and 100 for Best Practices on Desktop & above 70 on mobile for performance. 
+- **Lighthouse:** Scores above 90 for Performance, 100 for Accessibility, 100 for SEO and 100 for Best Practices on Desktop & above 70 on mobile for performance. 
 </details>
 
 | ![](assets/readme-images/lighthouse-desktop.png) | ![](assets/readme-images/lighthouse-mobile.png) |
