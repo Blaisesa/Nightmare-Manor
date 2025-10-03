@@ -41,6 +41,7 @@
 #logo-footer img {
     width: 50px;
     height: 50px;
+    margin-right: 10px;
 }
 
 #main-nav a {
@@ -278,6 +279,29 @@ footer h3 {
     margin-right: 15px;
 }
 
+.footer-links a{
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: var(--secondary-font-family);
+    color: var(--accent-color-primary);
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 15px;
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.footer-links a:hover{
+    color: var(--accent-color-secondary);
+    text-decoration: underline;
+}
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
 /* Booking Page */
 #booking-card > div {
     border: var(--accent-color-primary) 2px solid;
@@ -418,6 +442,9 @@ main#success-page p {
     font-family: var(--primary-font-family);
     margin-top: 30px;
     padding: 0.75rem 2rem;
+}
+#success-page .main-button:hover {
+    background-color: var(--accent-color-secondary);
 }
 /* Responsive Styles */
 /* Extra Extra Large Screens */
